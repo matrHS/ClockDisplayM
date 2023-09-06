@@ -22,6 +22,17 @@ public class NumberDisplay {
   }
 
   /**
+   * Creates an instance of NumberDisplay with specified upper limit and start value.
+   *
+   * @param limit Higher bound limit for the rolling counter.
+   * @param value Start value for the NumberDisplay instance.
+   */
+  public NumberDisplay(int limit, int value) {
+    setLimit(limit);
+    setValue(value);
+  }
+
+  /**
    * Increments the value by 1.
    * Rolls over if value has reached limit
    *
