@@ -17,7 +17,7 @@ public class Main {
     minutes = new NumberDisplay(60);
 
     minutes.setValue(46);
-    hours.setValue(17);
+    hours.setValue(19);
 
     for (int i = 0; i < 500; i++) {
       minutes.increment();
